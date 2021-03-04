@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\finalProject\library.cfg"  -j "c:\My_Designs\finalProject\finalproject\projlib.cfg"  -d "c:\My_Designs\finalProject\finalproject\compile"   -work finalproject  -O3 -e 100 -2002 "c:/My_Designs/finalProject/finalproject/src/simplecpu.vhd"

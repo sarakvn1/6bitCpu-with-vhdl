@@ -1,0 +1,7 @@
+1250
+~E 1 "./../src/decode_input.vhd" 5 decode_input
+~E 1 "./../src/simplecpu.vhd" 16 simplecpu
+~A 1 "./../src/simplecpu.vhd" 28 simplecpu
+~E 1 "./../src/TestBench/simplecpu_TB.vhd" 9 simplecpu_tb
+~A 1 "./../src/TestBench/simplecpu_TB.vhd" 12 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/simplecpu_TB.vhd" 43 testbench_for_simplecpu

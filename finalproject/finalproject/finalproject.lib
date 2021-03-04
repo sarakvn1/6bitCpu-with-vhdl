@@ -1,0 +1,55 @@
+timestamp=1595446800857
+
+[~A]
+ModifyID=1250
+Version=73
+
+[decode_input]
+BinW64/decode_input=3*4211
+I=0*614939
+I/decode_input=0*615690
+M=11|2|vc1|1595086112195|./../src/decode_input.vhd|0*614505*0xf16b8e6d216f77dd324971a07e2bc0bf901db247|0*614850*0x5eebbfaf24833dd780412b1f91e05209
+R=./../src/decode_input.vhd|5
+Version=10.1.3088.5434  (Windows64)|00000003789cd3f5370600015b00b0|c2c0f182988e415b10a8409c91bc9f5994fa8cc1182cc83d7a4f26beeb95defe351bc87b7df735ef12a5b3668493f810
+Version/decode_input=10.1.3088.5434  (Windows64)|00000003789cd3f5370600015b00b0|c2c0f182988e415b10a8409c91bc9f5994fa8cc1182cc83d7a4f26beeb95defe587066ecc1ff0885e20886df1c7ac2c2
+
+[simplecpu]
+A/simplecpu=21|./../src/simplecpu.vhd|28|1*1327009
+BinW64/simplecpu=3*4728
+I=0*543438
+I/simplecpu=0*965759
+M=11|2|vc1|1595066358070|./../src/simplecpu.vhd|0*542806*0x0f9217fbb6f3ea955344a006ab7c9f0932b5fbec|0*543355*0x5eebbfaf24833dd780412b1f91e05209
+M/simplecpu=21|2|vc1|1595446800705|./../src/simplecpu.vhd|0*959539*0x962397a611071469cfca5c3c3518acd847f663d0|0*965663*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/simplecpu.vhd|16
+Version=10.1.3088.5434  (Windows64)|00000003789cd3f5370600015b00b0|817593936f17b815dde5521d910656b6de92bcdc6ed7c5962fd2a15d53508922a064d266dbeb02eb946c3889ee675eae
+Version/simplecpu=10.1.3088.5434  (Windows64)|00000003789cd3f5370600015b00b0|817593936f17b815dde5521d910656b6de92bcdc6ed7c5962fd2a15d5350892230ef9ed213eafa4bca154c67a7214fd1
+
+[simplecpu_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/simplecpu_TB.vhd|12|1*402003
+I=0*30498
+I/tb_architecture=I/TB_ARCHITECTURE 0*198194
+M=11|2|vc1|1594908689677|./../src/TestBench/simplecpu_TB.vhd|0*30126*0x02ec5c99218db93efed39d49b0a5ff056d91cb54|0*30399*0x5eebbfaf24833dd780412b1f91e05209
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|vc1|1594995377242|./../src/TestBench/simplecpu_TB.vhd|0*98650*0x638bc474c8b961f250a37e166f48407e99228ef2|0*99105*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/TestBench/simplecpu_TB.vhd|9
+Version=10.1.3088.5434  (Windows64)|00000003789cd3f5370600015b00b0|871c3e8f3abca55dc3013c1ac7b53113323110b9bb5e88673b339be56f282a50d59c98984cfad38332305086b3ed5de2
+Version/tb_architecture=10.1.3088.5434  (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea3149c1033edfa9f31595ab378672afaa
+
+[testbench_for_simplecpu]
+Configures=simplecpu_tb.TB_ARCHITECTURE
+E=1*794161
+I=0*100015
+M=2|2|vc1|1595070795553|./../src/TestBench/simplecpu_TB.vhd|0*99596*0xd67d3cb9dd1559baf5f526a078d2df9144758569|0*99890*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/TestBench/simplecpu_TB.vhd|43
+Version=10.1.3088.5434  (Windows64)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e57231cb08e60ed24b01c80041eb3b327726527262ddaa47cb266f3a3c4d9b973ab2b5d20fc815cbc0509fdb8e1bc8e7c9
+
+[~MFT]
+0=1163|0finalproject.mgf|965759|955221
+1=460|1finalproject.mgf|1327009|1324850
+3=131|3finalproject.mgf|4728|4211
+
+[~U]
+decode_input=11|0*614188|
+simplecpu=11|0*542623|
+simplecpu_tb=11|0*30044|
+testbench_for_simplecpu=TESTBENCH_FOR_simplecpu 2||
+

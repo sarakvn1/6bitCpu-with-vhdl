@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<document type="stimulators" version="1">
+		<set name="ASDB Stimulators" active="0"/>
+		<set name="ASDB Stimulators 1" active="1">
+			<stimulator>
+				<signal_path value="/simplecpu/clk"/>
+				<rawdescription value="CLK:FRM:Override:30.000000;2;1;0;50;1:Clock:0:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/simplecpu/reset"/>
+				<rawdescription value="VAL:FRM:Override:0:&lt;= 0:1:"/>
+			</stimulator>
+		</set>
+	</document>
+</XML>

@@ -1,0 +1,34 @@
+Active-HDL 10.1.3088.5434  2020-07-22 10:06:27
+
+Elaboration top modules:
+Architecture                  simplecpu(simplecpu)
+
+
+---------------------------------------------------------------------------------------------------
+Entity    | Architecture | Library      | Info | Compiler Version            | Compilation Options
+---------------------------------------------------------------------------------------------------
+simplecpu | simplecpu    | finalproject |      | 10.1.3088.5434  (Windows64) | -O3
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+VHDL Package             | Library      | Info | Compiler Version            | Compilation Options
+---------------------------------------------------------------------------------------------------
+standard                 | std          |      |                             | <unavailable>
+TEXTIO                   | std          |      | 10.1.3088.5434  (Windows64) |  -2008
+std_logic_1164           | ieee         |      | 10.1.3088.5434  (Windows64) |  -2008
+std_logic_arith          | ieee         |      | 10.1.3088.5434  (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED       | ieee         |      | 10.1.3088.5434  (Windows64) | <unavailable>
+NUMERIC_STD              | ieee         |      | 10.1.3088.5434  (Windows64) |  -2008
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+Library                  | Comment
+---------------------------------------------------------------------------------------------------
+finalproject             | None
+ieee                     | Standard IEEE packages library
+std                      | Standard VHDL library
+---------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+simplecpu simplecpu simplecpu
+

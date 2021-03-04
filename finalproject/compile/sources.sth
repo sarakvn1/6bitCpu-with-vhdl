@@ -1,0 +1,12 @@
+[Files List]
+C:\Aldec\Active-HDL 10.1 64-bit\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL 10.1 64-bit\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL 10.1 64-bit\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL 10.1 64-bit\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Aldec\Active-HDL 10.1 64-bit\vlib\ieee/src/arith_p.vhd=S
+C:\Aldec\Active-HDL 10.1 64-bit\vlib\ieee/src/arith_b.vhd=S
+C:\Aldec\Active-HDL 10.1 64-bit\vlib\ieee/src/unsigned_p.vhd=S
+C:\Aldec\Active-HDL 10.1 64-bit\vlib\ieee/src/unsigned_b.vhd=S
+C:\Aldec\Active-HDL 10.1 64-bit\vlib\ieee/src/numeric_std.vhdl=S
+C:\Aldec\Active-HDL 10.1 64-bit\vlib\ieee/src/numeric_std-body.vhdl=S
+c:\My_Designs\finalProject\finalproject/src/simplecpu.vhd=S

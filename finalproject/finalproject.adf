@@ -1,0 +1,68 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=finalproject
+
+[Library]
+finalproject=.\finalproject\finalproject.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=Lattice ECP2
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+finalproject=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=simplecpu|simplecpu|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+waves=1
+TestBench=1
+
+[Files]
+/simplecpu.vhd=-1
+/multiplying.asdb=-1
+/multiplying.awc=-1
+waves/add.asdb=-1
+waves/add.awc=-1
+TestBench/simplecpu_TB.vhd=-1
+TestBench/simplecpu_TB_runtest.do=-1
+
+[Files.Data]
+.\src\simplecpu.vhd=VHDL Source Code
+.\src\multiplying.asdb=Accelerated Waveform File
+.\src\multiplying.awc=Accelerated Waveform Configuration
+.\src\waves\add.asdb=Accelerated Waveform File
+.\src\waves\add.awc=Accelerated Waveform Configuration
+.\src\TestBench\simplecpu_TB.vhd=VHDL Test Bench
+.\src\TestBench\simplecpu_TB_runtest.do=Macro
+
